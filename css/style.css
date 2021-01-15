@@ -32,7 +32,6 @@ a {
 
 .special-opaque {
   opacity: .2;
-  position: relative;
 }
 
 .text-bold {
@@ -41,6 +40,10 @@ a {
 
 .text-uppercase {
   text-transform: uppercase;
+}
+
+.pad-rig-50 {
+  padding-right: 50px;
 }
 
 .pad-rig-35 {
@@ -53,12 +56,15 @@ a {
 
 .special-li {
   padding-top: 10px;
+  display: inline-block;
+  position: relative;
 }
 
 .coming-soon {
   color: rgb(6, 102, 235);
   font-size: 8px;
   position: absolute;
+  right: -50px;
 }
 /* end COMMON AND UTILITY CLASSES*/
 
@@ -102,9 +108,6 @@ nav .logo {
   background-color: rgba(25, 28, 31, 0.8);
 }
 
-.has-dropdown {
-}
-
 .dropdown-menu {
   position: absolute;
   transform: translate(0, 14px);
@@ -113,6 +116,14 @@ nav .logo {
   0px 8px 16px 0px rgba(0, 0, 0, 0.08);
   padding: 20px;
   display: none;
+}
+
+.has-dropdown:first-child .dropdown-menu {
+  right: 60px;
+}
+
+.has-dropdown:first-child .dropdown-menu ul {
+  width: 250px;
 }
 
 .active {
