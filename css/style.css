@@ -1,0 +1,64 @@
+/* COMMON AND UTILITY CLASSES*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.flex {
+  display: flex;
+}
+
+.no-bullet-list {
+  list-style-type: none;
+}
+
+.no-decoration-text {
+  text-decoration: none;
+}
+
+.opaque {
+  opacity: .5;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.pad-rig-35 {
+  padding-right: 35px;
+}
+/* end COMMON AND UTILITY CLASSES*/
+
+nav {
+  padding: 40px 60px;
+  justify-content: space-between;
+}
+
+nav .logo {
+  padding-right: 50px;
+}
+
+.login-button {
+  background-color: rgba(230, 230, 230, 0.6);
+  color: rgb(25, 28, 31);
+  padding: 13px 25px;
+  border-radius: 15px;
+  margin-right: 15px;
+}
+
+.app-download {
+  background-color: rgb(25, 28, 31);
+  color: white;
+  padding: 13px 25px;
+  border-radius: 15px;
+}
