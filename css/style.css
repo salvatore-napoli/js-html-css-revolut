@@ -115,7 +115,8 @@ nav .logo {
   display: none;
 }
 
-.dropdown-menu ul {
+.active {
+  display: flex;
 }
 
 .dropdown-menu .dropdown-title {
