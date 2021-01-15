@@ -4,4 +4,8 @@ $(document).ready(function() {
 		$(this).find('.dropdown-menu').toggleClass('active');
 	});
 
+	$('.has-dropdown').mouseleave(function() {
+		$(this).find('.dropdown-menu').removeClass('active');
+	});
+
 });
