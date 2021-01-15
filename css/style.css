@@ -30,12 +30,35 @@ a {
   opacity: .4;
 }
 
+.special-opaque {
+  opacity: .2;
+  position: relative;
+}
+
 .text-bold {
   font-weight: bold;
 }
 
+.text-uppercase {
+  text-transform: uppercase;
+}
+
 .pad-rig-35 {
   padding-right: 35px;
+}
+
+.pad-bot-20 {
+  padding-bottom: 20px;
+}
+
+.special-li {
+  padding-top: 10px;
+}
+
+.coming-soon {
+  color: rgb(6, 102, 235);
+  font-size: 8px;
+  position: absolute;
 }
 /* end COMMON AND UTILITY CLASSES*/
 
@@ -46,6 +69,10 @@ nav {
 
 nav li:hover {
   opacity: 1;
+}
+
+nav img {
+  vertical-align: middle;
 }
 
 nav .logo {
@@ -73,4 +100,38 @@ nav .logo {
 
 .app-download:hover {
   background-color: rgba(25, 28, 31, 0.8);
+}
+
+.has-dropdown {
+}
+
+.dropdown-menu {
+  position: absolute;
+  transform: translate(0, 14px);
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.04),
+  0px 8px 16px 0px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  display: none;
+}
+
+.dropdown-menu ul {
+}
+
+.dropdown-menu .dropdown-title {
+  color: rgb(206, 213, 219);
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
+.dropdown-menu .dropdown-title .dropdown-title-img {
+  padding: 4px;
+  border-radius: 50%;
+  background-color: rgba(230, 230, 230, 0.8);
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.dropdown-menu .dropdown-title .dropdown-title-img img{
+  width: 18px;
 }
