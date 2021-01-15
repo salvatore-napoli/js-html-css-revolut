@@ -27,7 +27,7 @@ a {
 }
 
 .opaque {
-  opacity: .5;
+  opacity: .4;
 }
 
 .text-bold {
@@ -44,6 +44,10 @@ nav {
   justify-content: space-between;
 }
 
+nav li:hover {
+  opacity: 1;
+}
+
 nav .logo {
   padding-right: 50px;
 }
@@ -56,9 +60,17 @@ nav .logo {
   margin-right: 15px;
 }
 
+.login-button:hover {
+  background-color: rgba(230, 230, 230, 0.8);
+}
+
 .app-download {
   background-color: rgb(25, 28, 31);
   color: white;
   padding: 13px 25px;
   border-radius: 15px;
+}
+
+.app-download:hover {
+  background-color: rgba(25, 28, 31, 0.8);
 }
